@@ -28,12 +28,9 @@ mvn test
 Start the application:
 mvn spring-boot:run
 
-The application runs on:
-
-http://localhost:8080
-
+The application runs on: http://localhost:8080
 Database: This project uses an in-memory H2 database.
-Database URL: jdbc:h2:mem:college_db
+Database URL: jdbc: h2:mem:college_db
 Open: http://localhost:8080/h2-console
 Username: sa
 Password:(empty)
@@ -42,12 +39,10 @@ Check database tables
 Run these SQL queries inside the H2 Console:
 
 SHOW TABLES;
-
 SELECT * FROM PROFESSORS;
 SELECT * FROM STUDENTS;
 SELECT * FROM SUBJECTS;
 SELECT * FROM ADMISSION_RECORDS;
-
 SELECT * FROM STUDENT_PROFESSOR;
 SELECT * FROM STUDENT_SUBJECT;
 Check Relationships
